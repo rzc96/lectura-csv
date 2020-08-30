@@ -1,10 +1,8 @@
-# Desarrollar una aplicación web que cumpla con lo siguiente:
+import csv
 
-# - Reciba un archivo CSV con tres columnas
-#    - Nombre
-#    - Correo Electrónico
-#    - Teléfono
-# - Filtrar las filas que estén repetidas (las tres columnas deben de ser repetidas)
-# - Filtrar correos electrónicos no validos
-# - Desplegar una tabla con los resultados
-#    - Si una fila tiene alguna de las columnas repetidas con otra, esta debe de aparecer de otro color. Ejemplo en archivo.
+df =  pd.read_csv('MOCK_DATA.csv')
+
+df.to_html('myTable.htm')
+
+htmTable = df.to_html()
+
