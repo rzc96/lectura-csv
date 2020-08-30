@@ -16,3 +16,4 @@ Desarrollar una aplicación web que cumpla con lo siguiente:
 Notes:
 
 - Requires python 3
+- Run <b>pip install pandas</b> to run main.py
