@@ -17,8 +17,10 @@ Notes:
 
 - Requires python 3
 - Run the following commands with pip to run main.py
-<b>pip install pandas</b>
-<b>pip install styleframe</b>
+<ul>
+<li>pip install pandas</li>
+<li>pip install styleframe</li>
+</ul>
 
 - Test run results in test_result.xlsx
 
