@@ -16,4 +16,9 @@ Desarrollar una aplicación web que cumpla con lo siguiente:
 Notes:
 
 - Requires python 3
-- Run <b>pip install pandas</b> to run main.py
+- Run the following commands with pip to run main.py
+<b>pip install pandas</b>
+<b>pip install styleframe</b>
+
+Future of the app:
+- Verificar que el correo exista (que no solo cumpla la nomenclatura)
