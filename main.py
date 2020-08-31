@@ -10,9 +10,13 @@ df =  pd.read_csv('MOCK_DATA.csv')
 # print(df)
 
 for index, row in df.iterrows():
+    #filtrado de correos invalidos (que no contengan @ o .xxxxx)
     tempEmail = row['Correo Electronico']
-    if(re.search(regex,tempEmail) == False):
+    if(re.search(regex,str(tempEmail)) == False):
         df.drop(row, inplace = True)
+
+    # eliminar las filas que tengan la información (las 3 columnas) duplicadas
+    df.drop_duplicates(subset=None, inplace= True)
 
 
 
