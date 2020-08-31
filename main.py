@@ -29,7 +29,6 @@ sf.apply_style_by_indexes(sf[df.duplicated(subset=["Telefono", "Telefono"], keep
 
 sf.to_excel("test.xlsx").save()
 
-df.to_html('myTable.htm')
-
-htmTable = df.to_html()
+#df.to_html('myTable.htm')
+#htmTable = df.to_html()
 

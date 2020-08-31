@@ -20,5 +20,7 @@ Notes:
 <b>pip install pandas</b>
 <b>pip install styleframe</b>
 
+- Test run results in test_result.xlsx
+
 Future of the app:
 - Verificar que el correo exista (que no solo cumpla la nomenclatura)
